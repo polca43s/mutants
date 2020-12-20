@@ -7,11 +7,11 @@
 * Construi la app con ayuda de [Spring Boot](https://spring.io/)
 * La base de datos es [H2](https://www.h2database.com/html/main.html)
 * Para los tests se uso [JUnit](http://junit.org/junit5/) y [Mockito](http://site.mockito.org/).
-* Para hostear la aplicacion use el hosting cloud computing [Heroku](https://www.heroku.com/).
+* Para hostear la aplicacion use el hosting [Heroku](https://www.heroku.com/).
 * Para el parseo de los datos en formato Json uso [Gson](https://github.com/google/gson)
 
 ## Coverage
-* ![Coverage of 100% in Classes, 97% in Methods and 95% in Lines.](Set correct Links)
+* ![Coverage of 100% in Classes, 97% in Methods and 95% in Lines.](https://github.com/polca43s/mutants/blob/master/src/main/resources/static/Coverage.png)
 
 ## Vulnerabilidades y code review
 * Se utilizo el plugin de sonar lint
