@@ -43,8 +43,10 @@
       {"count_mutant_dna":5,"count_human_dna":4,"ratio":1.25}
 
 ## Deploy en Heroku
- //TODO:
-
+ Para deployar en Heroku cambie la base H2 por postgresql, ya que heroku no permite H2.. para pegarle a los servicios
+ en esa infra pegarle a:
+ * https://mutan-exam-meli.herokuapp.com/mutant
+ * https://mutan-exam-meli.herokuapp.com/stats
 
 ## Paralelizacion y Infra
 Para mejorar la performance se podría usar un Executor que corra en distintos threads los distintos recorridos que se
